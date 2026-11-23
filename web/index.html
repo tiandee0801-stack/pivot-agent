@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#111318"><meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Pivot 换场"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="description" content="Pivot 换场，将计划、实际训练和生活变化连接起来。">
+<title>Pivot 换场 · Demo V1.1.3</title>
+<link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/mark.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/icon-192.png">
+<link rel="stylesheet" href="/app.css"><link rel="stylesheet" href="/mvp.css"><script src="/app.js" defer></script><script src="/mvp.js" defer></script>
+<link rel="stylesheet" href="/experience.css"><link rel="stylesheet" href="/refresh.css"><script src="/experience.js" defer></script>
+<link rel="stylesheet" href="/catalog.css"><script src="/catalog-demos.js" defer></script><script src="/catalog.js" defer></script>
+<link rel="stylesheet" href="/workout.css"><script src="/workout.js" defer></script>
+</head>
+<body>
+<header class="topbar"><button class="brand" data-nav="today" aria-label="Pivot 首页">PIVOT<span>换场</span></button><button class="iconbtn install" data-action="install" aria-label="添加到主屏幕"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3v12m-4-4 4 4 4-4M4 15v5h16v-5"/></svg></button></header>
+<div id="offline" class="offline" hidden>当前离线，连接恢复后才能读取或保存训练数据。</div>
+<main id="main" tabindex="-1"><div class="loading">正在读取你的运动安排…</div></main>
+<nav id="nav" class="bottomnav" aria-label="主导航"></nav>
+<div id="interpretation-progress" role="status"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="sheet" aria-label="操作详情"><div class="sheetbar"><span></span><button class="iconbtn" data-action="close-sheet" aria-label="关闭">×</button></div><div id="sheet-body"></div></dialog>
+</body>
+</html>

@@ -1,0 +1,1377 @@
+{
+  "version": "1.1.3",
+  "reviewStatus": "pending",
+  "preview": true,
+  "exercises": [
+    {
+      "id": "ankle_wall_mobility",
+      "name": "靠墙踝背屈活动",
+      "aliases": [
+        "膝碰墙",
+        "踝关节热身"
+      ],
+      "category": "热身与活动度",
+      "goal": "踝部活动度",
+      "equipment": [
+        "墙面"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 4,
+      "instructions": "面对墙站立，脚跟留在地面，膝盖沿脚尖方向缓慢向墙靠近，再回到起始位。左右脚分别练习。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "hip_90_90",
+      "name": "坐姿髋部转动",
+      "aliases": [
+        "90/90 髋转",
+        "坐姿转髋"
+      ],
+      "category": "热身与活动度",
+      "goal": "髋部活动度",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "屈膝坐在平整地面，双腿缓慢转向一侧后切换方向。双手可撑地，保持动作从容。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "thoracic_open_book",
+      "name": "侧卧胸椎旋转",
+      "aliases": [
+        "开书式",
+        "开书转体"
+      ],
+      "category": "热身与活动度",
+      "goal": "胸椎活动度",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "侧卧屈膝，双膝保持叠放。上方手臂和胸部缓慢打开，转到舒适范围后回到起始位。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "shoulder_circles",
+      "name": "站姿绕肩热身",
+      "aliases": [
+        "手臂绕环",
+        "肩部热身"
+      ],
+      "category": "热身与活动度",
+      "goal": "肩带热身",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "time",
+      "secondsPerUnit": 1,
+      "instructions": "直立站稳，双手在身侧做平缓绕环。先用小幅度，再逐步扩大，保持肩部放松。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "adductor_rock_back",
+      "name": "跪姿内收肌动态热身",
+      "aliases": [
+        "内收肌后坐",
+        "跪姿侧伸腿"
+      ],
+      "category": "热身与活动度",
+      "goal": "髋部活动度",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "一膝跪地，另一腿向侧方伸出。手掌支撑地面，臀部缓慢向后移动后回到原位。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "march_in_place",
+      "name": "原地踏步热身",
+      "aliases": [
+        "原地踏步",
+        "站姿踏步"
+      ],
+      "category": "热身与活动度",
+      "goal": "全身热身",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "time",
+      "secondsPerUnit": 1,
+      "instructions": "在平整地面交替抬脚，手臂自然摆动，节奏由慢到快，保持能停住和转向。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "hip_open_gate",
+      "name": "站姿髋部开合",
+      "aliases": [
+        "开髋绕腿",
+        "站姿开髋"
+      ],
+      "category": "热身与活动度",
+      "goal": "髋部动态热身",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 4,
+      "instructions": "站稳一侧，抬起另一侧膝盖后缓慢向外打开，再落回原位。左右交替，必要时单手扶稳。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "squat",
+      "name": "深蹲",
+      "aliases": [
+        "徒手深蹲",
+        "自重深蹲"
+      ],
+      "category": "下肢基础力量",
+      "goal": "下肢蹲类力量",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "双脚踩稳地面，屈髋屈膝坐向下方，再站回。用自己能控制的深度，动作期间保持全脚掌支撑。",
+      "videoSupported": true,
+      "alternatives": [
+        "goblet_squat"
+      ]
+    },
+    {
+      "id": "goblet_squat",
+      "name": "哑铃高脚杯深蹲",
+      "aliases": [
+        "杯式深蹲",
+        "高脚杯蹲"
+      ],
+      "category": "下肢基础力量",
+      "goal": "下肢蹲类力量",
+      "equipment": [
+        "哑铃"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "常规",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "双手持一只哑铃靠近胸前，全脚掌踩稳；缓慢下蹲后起身，保持哑铃靠近身体。",
+      "videoSupported": false,
+      "alternatives": [
+        "squat"
+      ]
+    },
+    {
+      "id": "barbell_back_squat",
+      "name": "杠铃后蹲",
+      "aliases": [
+        "杠铃深蹲",
+        "杠铃背蹲"
+      ],
+      "category": "下肢基础力量",
+      "goal": "下肢蹲类力量",
+      "equipment": [
+        "杠铃",
+        "深蹲架"
+      ],
+      "space": [
+        "gym"
+      ],
+      "level": "进阶",
+      "metric": "reps",
+      "secondsPerUnit": 6,
+      "instructions": "在配有保护杆的深蹲架上完成取杠和回架。将杠铃稳定放在上背，以能控制的幅度下蹲和起身。",
+      "videoSupported": false,
+      "alternatives": [
+        "goblet_squat",
+        "squat"
+      ]
+    },
+    {
+      "id": "dumbbell_rdl",
+      "name": "哑铃罗马尼亚硬拉",
+      "aliases": [
+        "哑铃 RDL",
+        "哑铃直腿硬拉"
+      ],
+      "category": "下肢基础力量",
+      "goal": "下肢髋铰链力量",
+      "equipment": [
+        "哑铃"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "常规",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "双手持哑铃置于腿前，膝微屈，臀部向后移动。哑铃沿腿靠近下移，在姿势可控处起身。",
+      "videoSupported": false,
+      "alternatives": [
+        "band_rdl"
+      ]
+    },
+    {
+      "id": "band_rdl",
+      "name": "弹力带髋铰链",
+      "aliases": [
+        "弹力带罗马尼亚硬拉",
+        "弹力带 RDL"
+      ],
+      "category": "下肢基础力量",
+      "goal": "下肢髋铰链力量",
+      "equipment": [
+        "弹力带"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "按弹力带的使用说明踩稳带身，双手握住两端。膝微屈，将臀部向后移动，再伸髋站起。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "glute_bridge",
+      "name": "仰卧臀桥",
+      "aliases": [
+        "自重臀桥",
+        "双腿臀桥"
+      ],
+      "category": "下肢基础力量",
+      "goal": "髋伸展力量",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "仰卧屈膝、双脚着地。用脚支撑并抬起臀部，保持躯干和骨盆稳定，缓慢落回。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "standing_calf_raise",
+      "name": "双腿站姿提踵",
+      "aliases": [
+        "双脚提踵",
+        "站姿提踵"
+      ],
+      "category": "下肢基础力量",
+      "goal": "站姿小腿力量",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 4,
+      "instructions": "双脚平行站立，慢慢提起脚跟后落下。可在稳固支撑旁完成，避免借蹬地弹起。",
+      "videoSupported": false,
+      "alternatives": [
+        "single_leg_calf_raise"
+      ]
+    },
+    {
+      "id": "pushup",
+      "name": "俯卧撑",
+      "aliases": [
+        "标准俯卧撑",
+        "掌上压"
+      ],
+      "category": "上肢推拉",
+      "goal": "上肢水平推",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 4,
+      "instructions": "双手支撑地面，躯干和腿保持连贯。屈肘靠近地面，再将身体推回起始位。",
+      "videoSupported": true,
+      "alternatives": [
+        "incline_pushup"
+      ]
+    },
+    {
+      "id": "incline_pushup",
+      "name": "上斜俯卧撑",
+      "aliases": [
+        "高位俯卧撑",
+        "抬手俯卧撑"
+      ],
+      "category": "上肢推拉",
+      "goal": "上肢水平推",
+      "equipment": [
+        "卧推凳"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 4,
+      "instructions": "手撑稳固且不会滑动的训练凳，双脚后移。身体整体向凳面靠近后推回。",
+      "videoSupported": false,
+      "alternatives": [
+        "pushup"
+      ]
+    },
+    {
+      "id": "dumbbell_row",
+      "name": "哑铃划船",
+      "aliases": [
+        "双臂哑铃划船",
+        "俯身哑铃划船"
+      ],
+      "category": "上肢推拉",
+      "goal": "上肢水平拉",
+      "equipment": [
+        "哑铃"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "常规",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "双手持哑铃，屈髋俯身并站稳。将肘向后拉，使哑铃靠近躯干，再有控制地放下。",
+      "videoSupported": false,
+      "alternatives": [
+        "band_row"
+      ]
+    },
+    {
+      "id": "band_row",
+      "name": "弹力带划船",
+      "aliases": [
+        "站姿弹力带划船",
+        "弹力带水平拉"
+      ],
+      "category": "上肢推拉",
+      "goal": "上肢水平拉",
+      "equipment": [
+        "弹力带"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "先确认固定点稳固，连接方式符合弹力带说明。面向固定点站稳，将肘向后拉，再慢慢伸回。",
+      "videoSupported": false,
+      "alternatives": [
+        "dumbbell_row"
+      ],
+      "anchorRequired": true
+    },
+    {
+      "id": "overhead_press",
+      "name": "肩上推举",
+      "aliases": [
+        "哑铃肩推",
+        "哑铃肩上推举"
+      ],
+      "category": "上肢推拉",
+      "goal": "上肢垂直推",
+      "equipment": [
+        "哑铃"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "常规",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "双手持哑铃放在肩侧，躯干保持稳定。双手向上推，随后将哑铃缓慢放回肩侧。",
+      "videoSupported": true,
+      "alternatives": []
+    },
+    {
+      "id": "lateral_raise",
+      "name": "侧平举",
+      "aliases": [
+        "哑铃侧平举",
+        "侧举"
+      ],
+      "category": "上肢推拉",
+      "goal": "肩外展力量",
+      "equipment": [
+        "哑铃"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "双手持哑铃并保持肘微屈。手臂从身体两侧缓慢抬起，再平稳放下。",
+      "videoSupported": true,
+      "alternatives": []
+    },
+    {
+      "id": "bicep_curl",
+      "name": "哑铃弯举",
+      "aliases": [
+        "站姿弯举",
+        "肱二头肌弯举"
+      ],
+      "category": "上肢推拉",
+      "goal": "肘屈曲力量",
+      "equipment": [
+        "哑铃"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "双臂自然下垂，握住哑铃并弯肘上举。肩和上臂保持稳定，缓慢伸肘回到起点。",
+      "videoSupported": true,
+      "alternatives": []
+    },
+    {
+      "id": "cable_lat_pulldown",
+      "name": "拉力器高位下拉",
+      "aliases": [
+        "高位下拉",
+        "Lat Pulldown"
+      ],
+      "category": "上肢推拉",
+      "goal": "上肢垂直拉",
+      "equipment": [
+        "拉力器"
+      ],
+      "space": [
+        "gym"
+      ],
+      "level": "常规",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "使用带座位和固定腿垫的高位下拉器。双手握把，肘向下拉至手柄靠近上胸，控制回到上方。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "scapular_pushup",
+      "name": "俯撑肩胛推",
+      "aliases": [
+        "肩胛俯卧撑",
+        "肩胛俯撑"
+      ],
+      "category": "上肢推拉",
+      "goal": "肩胛控制",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 4,
+      "instructions": "在双手支撑位保持肘伸直，胸部略向地面靠近，再用肩胛带将上背推离地面。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "split_squat",
+      "name": "分腿蹲",
+      "aliases": [
+        "原地弓步蹲",
+        "自重分腿蹲"
+      ],
+      "category": "单侧与多方向力量",
+      "goal": "单侧下肢蹲类力量",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "一脚在前、一脚在后站稳，垂直降低身体，再由前脚支撑站起。完成一侧后换脚。",
+      "videoSupported": false,
+      "alternatives": [
+        "reverse_lunge"
+      ]
+    },
+    {
+      "id": "reverse_lunge",
+      "name": "后撤弓步",
+      "aliases": [
+        "反向弓步",
+        "向后箭步蹲"
+      ],
+      "category": "单侧与多方向力量",
+      "goal": "单侧下肢蹲类力量",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "常规",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "从站姿向后迈一步，双膝弯曲降低身体。用前脚推地回到站姿，左右交替。",
+      "videoSupported": false,
+      "alternatives": [
+        "split_squat"
+      ]
+    },
+    {
+      "id": "lateral_lunge",
+      "name": "侧弓步",
+      "aliases": [
+        "侧向弓步",
+        "横向弓步"
+      ],
+      "category": "单侧与多方向力量",
+      "goal": "侧向下肢力量",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "常规",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "向侧方迈步，屈同侧髋膝，另一腿保持伸展。支撑脚踩稳后回到中间。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "step_up",
+      "name": "台阶上步",
+      "aliases": [
+        "自重上台阶",
+        "台阶踏步"
+      ],
+      "category": "单侧与多方向力量",
+      "goal": "单侧上台阶力量",
+      "equipment": [
+        "台阶"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "常规",
+      "metric": "reps",
+      "secondsPerUnit": 6,
+      "instructions": "选用稳固防滑的台阶，前脚全脚掌踏稳。用踏在台阶上的腿站起，再控制下台。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "single_leg_hip_hinge",
+      "name": "徒手单腿髋铰链",
+      "aliases": [
+        "自重单腿硬拉",
+        "单腿髋折叠"
+      ],
+      "category": "单侧与多方向力量",
+      "goal": "单侧后链控制",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "常规",
+      "metric": "reps",
+      "secondsPerUnit": 6,
+      "instructions": "用单脚站立并微屈膝，臀部向后，另一腿自然向后伸。控制重心后回到直立，左右分别练习。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "single_leg_calf_raise",
+      "name": "单腿站姿提踵",
+      "aliases": [
+        "单脚提踵",
+        "单侧提踵"
+      ],
+      "category": "单侧与多方向力量",
+      "goal": "站姿小腿力量",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "常规",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "单脚站稳，在可扶靠的位置缓慢抬高脚跟再放下。保持脚掌前部接触地面。",
+      "videoSupported": false,
+      "alternatives": [
+        "standing_calf_raise"
+      ]
+    },
+    {
+      "id": "single_leg_balance",
+      "name": "单脚站立平衡",
+      "aliases": [
+        "单腿平衡",
+        "单脚稳站"
+      ],
+      "category": "单侧与多方向力量",
+      "goal": "单侧平衡",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "time",
+      "secondsPerUnit": 1,
+      "instructions": "靠近可以扶住的支撑，抬起一只脚并保持站稳，细小调整重心，完成后有控制地放下脚。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "dead_bug",
+      "name": "死虫",
+      "aliases": [
+        "死虫式",
+        "仰卧交替伸展"
+      ],
+      "category": "躯干控制",
+      "goal": "躯干抗伸展控制",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "仰卧屈髋屈膝，双臂举起。缓慢伸出一侧手臂和对侧腿，保持躯干稳定，再交替。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "side_plank",
+      "name": "侧桥",
+      "aliases": [
+        "侧平板",
+        "侧向平板支撑"
+      ],
+      "category": "躯干控制",
+      "goal": "躯干抗侧屈控制",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "time",
+      "secondsPerUnit": 1,
+      "instructions": "用同侧前臂和双脚侧缘支撑，抬起髋部。保持头、胸和骨盆朝同一方向；完成一侧后换侧。",
+      "videoSupported": false,
+      "alternatives": [
+        "knee_side_plank"
+      ]
+    },
+    {
+      "id": "knee_side_plank",
+      "name": "屈膝侧桥",
+      "aliases": [
+        "跪姿侧桥",
+        "短杠杆侧桥"
+      ],
+      "category": "躯干控制",
+      "goal": "躯干抗侧屈控制",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "time",
+      "secondsPerUnit": 1,
+      "instructions": "侧卧屈膝，以同侧前臂和膝部支撑。抬起骨盆，保持躯干稳定，然后换侧。",
+      "videoSupported": false,
+      "alternatives": [
+        "side_plank"
+      ]
+    },
+    {
+      "id": "bird_dog",
+      "name": "鸟狗式",
+      "aliases": [
+        "四点跪姿对侧伸展",
+        "四点支撑对侧伸展"
+      ],
+      "category": "躯干控制",
+      "goal": "躯干抗旋转控制",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 6,
+      "instructions": "在手膝支撑位伸出一只手和对侧腿。保持躯干平稳，缓慢收回后换侧。",
+      "videoSupported": false,
+      "alternatives": [
+        "pallof_press"
+      ]
+    },
+    {
+      "id": "pallof_press",
+      "name": "弹力带抗旋转推",
+      "aliases": [
+        "Pallof Press",
+        "帕洛夫推"
+      ],
+      "category": "躯干控制",
+      "goal": "躯干抗旋转控制",
+      "equipment": [
+        "弹力带"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "常规",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "确认固定点稳固并侧身站立，将弹力带在胸前握住。双手向前推出再收回，保持躯干朝前。",
+      "videoSupported": false,
+      "alternatives": [
+        "bird_dog"
+      ],
+      "anchorRequired": true
+    },
+    {
+      "id": "plank",
+      "name": "前臂平板支撑",
+      "aliases": [
+        "平板支撑",
+        "肘撑平板"
+      ],
+      "category": "躯干控制",
+      "goal": "躯干抗伸展静态控制",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "time",
+      "secondsPerUnit": 1,
+      "instructions": "用前臂和脚尖撑地，肩在肘的上方，保持躯干稳定，自然呼吸。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "suitcase_carry",
+      "name": "单手提重行走",
+      "aliases": [
+        "单侧负重行走",
+        "手提箱行走"
+      ],
+      "category": "躯干控制",
+      "goal": "行进中躯干抗侧屈控制",
+      "equipment": [
+        "哑铃"
+      ],
+      "space": [
+        "gym",
+        "court"
+      ],
+      "level": "常规",
+      "metric": "distance",
+      "secondsPerUnit": 2,
+      "instructions": "一手提哑铃，在清空路线后稳步直行。保持胸和骨盆朝前，完成一侧后换手。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "snap_down",
+      "name": "快速下沉定住",
+      "aliases": [
+        "落地姿势练习",
+        "Snap Down"
+      ],
+      "category": "爆发力与跳跃落地",
+      "goal": "双侧落地制动",
+      "equipment": [],
+      "space": [
+        "home",
+        "gym",
+        "court"
+      ],
+      "level": "基础",
+      "metric": "reps",
+      "secondsPerUnit": 5,
+      "instructions": "从站姿快速屈髋屈膝进入预备姿势，脚踩稳后停住。先练习控制，再尝试更快的下沉。",
+      "videoSupported": false,
+      "alternatives": [
+        "jump_and_stick"
+      ]
+    },
+    {
+      "id": "jump_and_stick",
+      "name": "双脚跳后定住",
+      "aliases": [
+        "原地纵跳落地定住",
+        "跳起落地稳住"
+      ],
+      "category": "爆发力与跳跃落地",
+      "goal": "双侧落地制动",
+      "equipment": [],
+      "space": [
+        "gym",
+        "court"
+      ],
+      "level": "常规",
+      "metric": "reps",
+      "secondsPerUnit": 6,
+      "instructions": "在防滑、上方开阔的位置双脚小幅起跳。用双脚落地并屈髋屈膝，站稳后再准备下一次。",
+      "videoSupported": false,
+      "alternatives": [
+        "snap_down"
+      ]
+    },
+    {
+      "id": "lateral_hop_stick",
+      "name": "侧向跳后稳定",
+      "aliases": [
+        "侧跳定住",
+        "侧向单脚落地"
+      ],
+      "category": "爆发力与跳跃落地",
+      "goal": "单侧侧向落地制动",
+      "equipment": [],
+      "space": [
+        "gym",
+        "court"
+      ],
+      "level": "进阶",
+      "metric": "reps",
+      "secondsPerUnit": 6,
+      "instructions": "在防滑开阔处侧向小幅跳至另一脚，落地后控制膝髋并站稳，再准备换侧。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "medicine_ball_chest_throw",
+      "name": "药球胸前推掷",
+      "aliases": [
+        "药球胸前传球",
+        "胸前爆发推掷"
+      ],
+      "category": "爆发力与跳跃落地",
+      "goal": "水平推掷爆发力",
+      "equipment": [
+        "药球"
+      ],
+      "space": [
+        "gym",
+        "court"
+      ],
+      "level": "常规",
+      "metric": "reps",
+      "secondsPerUnit": 6,
+      "instructions": "在允许投掷的区域面向伙伴或适用墙面，药球持在胸前，向前快速推出。确认前方区域清空。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "medicine_ball_rotation_throw",
+      "name": "药球转体投掷",
+      "aliases": [
+        "侧向药球投掷",
+        "旋转药球掷"
+      ],
+      "category": "爆发力与跳跃落地",
+      "goal": "旋转投掷爆发力",
+      "equipment": [
+        "药球"
+      ],
+      "space": [
+        "gym",
+        "court"
+      ],
+      "level": "进阶",
+      "metric": "reps",
+      "secondsPerUnit": 6,
+      "instructions": "在允许投掷的区域侧向面对伙伴或适用墙面，借助转髋和转体把球送向目标。左右分别练习。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "ankle_pogo",
+      "name": "原地双脚小跳",
+      "aliases": [
+        "踝弹跳",
+        "Pogo Jump"
+      ],
+      "category": "爆发力与跳跃落地",
+      "goal": "连续弹跳节奏",
+      "equipment": [],
+      "space": [
+        "gym",
+        "court"
+      ],
+      "level": "常规",
+      "metric": "time",
+      "secondsPerUnit": 1,
+      "instructions": "在平整防滑的场地做小幅连续轻跳，脚落在身体下方。节奏保持可控，结束时稳住。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "short_acceleration",
+      "name": "短距离启动",
+      "aliases": [
+        "直线起步",
+        "短距加速"
+      ],
+      "category": "启动、减速与变向",
+      "goal": "直线启动",
+      "equipment": [],
+      "space": [
+        "court"
+      ],
+      "level": "基础",
+      "metric": "distance",
+      "secondsPerUnit": 2,
+      "instructions": "在清空的直线区域，从站姿迈出几步并平稳提速。保留足够空间减速，不在终点线急停。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "linear_braking",
+      "name": "直线减速停稳",
+      "aliases": [
+        "直线急停练习",
+        "减速站稳"
+      ],
+      "category": "启动、减速与变向",
+      "goal": "直线制动",
+      "equipment": [],
+      "space": [
+        "court"
+      ],
+      "level": "基础",
+      "metric": "rounds",
+      "secondsPerUnit": 20,
+      "instructions": "在清空的直线区域用可控速度向前移动，再用几步逐渐减速，最后站稳。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "lateral_shuffle_stop",
+      "name": "侧移后制动",
+      "aliases": [
+        "防守滑步停稳",
+        "侧向滑步急停"
+      ],
+      "category": "启动、减速与变向",
+      "goal": "侧向制动",
+      "equipment": [],
+      "space": [
+        "court"
+      ],
+      "level": "基础",
+      "metric": "rounds",
+      "secondsPerUnit": 20,
+      "instructions": "保持胸口朝前，沿清空的一侧做防守滑步。减小步幅直到停稳，再向另一侧练习。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "angle_cut",
+      "name": "预设斜向变向",
+      "aliases": [
+        "45 度变向",
+        "标志桶斜切"
+      ],
+      "category": "启动、减速与变向",
+      "goal": "预设变向",
+      "equipment": [
+        "锥桶"
+      ],
+      "space": [
+        "court"
+      ],
+      "level": "常规",
+      "metric": "rounds",
+      "secondsPerUnit": 25,
+      "instructions": "用锥桶标出起点和斜向出口，按设定线路接近转折点。先减速站稳，再向出口方向迈步。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "cue_direction_change",
+      "name": "按信号变向",
+      "aliases": [
+        "反应变向",
+        "反应式敏捷"
+      ],
+      "category": "启动、减速与变向",
+      "goal": "反应式敏捷",
+      "equipment": [
+        "锥桶"
+      ],
+      "space": [
+        "court"
+      ],
+      "level": "进阶",
+      "metric": "rounds",
+      "secondsPerUnit": 25,
+      "instructions": "请伙伴发出口令或手势，在清空场地布置两个方向标记。先移动，再按信号选择方向，并控制减速。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "backpedal_turn",
+      "name": "后退转身向前",
+      "aliases": [
+        "后撤转身",
+        "倒退跑接转身"
+      ],
+      "category": "启动、减速与变向",
+      "goal": "后退衔接启动",
+      "equipment": [],
+      "space": [
+        "court"
+      ],
+      "level": "常规",
+      "metric": "rounds",
+      "secondsPerUnit": 24,
+      "instructions": "确认身后和前方路线清空，以可控节奏后退。减速后转髋并把身体转向前方，再向前迈步。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "brisk_walk",
+      "name": "持续快走",
+      "aliases": [
+        "有氧快走",
+        "快步走"
+      ],
+      "category": "体能",
+      "goal": "持续有氧体能",
+      "equipment": [],
+      "space": [
+        "court"
+      ],
+      "level": "基础",
+      "metric": "time",
+      "secondsPerUnit": 1,
+      "instructions": "在连续、平整的路线保持能持续的步行节奏。记录实际走动时间。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "steady_cycling",
+      "name": "单车持续骑行",
+      "aliases": [
+        "持续骑车",
+        "固定单车有氧"
+      ],
+      "category": "体能",
+      "goal": "持续有氧体能",
+      "equipment": [
+        "单车"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "基础",
+      "metric": "time",
+      "secondsPerUnit": 1,
+      "instructions": "在固定单车上选择能持续的阻力和踏频，稳定完成骑行并记录实际时间。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "bike_intervals",
+      "name": "单车间歇",
+      "aliases": [
+        "固定单车间歇",
+        "骑行间歇"
+      ],
+      "category": "体能",
+      "goal": "间歇体能",
+      "equipment": [
+        "单车"
+      ],
+      "space": [
+        "home",
+        "gym"
+      ],
+      "level": "常规",
+      "metric": "rounds",
+      "secondsPerUnit": 80,
+      "instructions": "在固定单车上交替进行较快踏频和放松骑行。完成一次快慢交替计为一回合。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "court_shuttle",
+      "name": "球场折返跑",
+      "aliases": [
+        "折返跑",
+        "往返跑"
+      ],
+      "category": "体能",
+      "goal": "重复往返体能",
+      "equipment": [],
+      "space": [
+        "court"
+      ],
+      "level": "常规",
+      "metric": "rounds",
+      "secondsPerUnit": 30,
+      "instructions": "在球场上选两条明确边线作为折返点，控制速度来回移动。一次完整往返计为一回合。",
+      "videoSupported": false,
+      "alternatives": []
+    },
+    {
+      "id": "court_tempo_run",
+      "name": "场地节奏跑",
+      "aliases": [
+        "半场节奏跑",
+        "球场匀速跑"
+      ],
+      "category": "体能",
+      "goal": "场地间歇体能",
+      "equipment": [],
+      "space": [
+        "court"
+      ],
+      "level": "常规",
+      "metric": "distance",
+      "secondsPerUnit": 2,
+      "instructions": "沿清空路线以稳定节奏完成距离，放松走回作为下一轮准备。记录实际跑动距离。",
+      "videoSupported": false,
+      "alternatives": []
+    }
+  ],
+  "templates": [
+    {
+      "id": "home_band_full_body",
+      "title": "居家弹力带全身",
+      "minutes": 30,
+      "purpose": "保留居家全身力量训练，覆盖下肢蹲与髋铰链、上肢推拉和躯干控制。",
+      "equipment": [
+        "弹力带"
+      ],
+      "space": [
+        "home"
+      ],
+      "actions": [
+        {
+          "exerciseId": "hip_90_90",
+          "quantity": 6,
+          "sets": 1,
+          "restSeconds": 25,
+          "optional": true
+        },
+        {
+          "exerciseId": "squat",
+          "quantity": 8,
+          "sets": 2,
+          "restSeconds": 45
+        },
+        {
+          "exerciseId": "band_rdl",
+          "quantity": 8,
+          "sets": 2,
+          "restSeconds": 45
+        },
+        {
+          "exerciseId": "pushup",
+          "quantity": 6,
+          "sets": 2,
+          "restSeconds": 45
+        },
+        {
+          "exerciseId": "band_row",
+          "quantity": 8,
+          "sets": 2,
+          "restSeconds": 45
+        },
+        {
+          "exerciseId": "dead_bug",
+          "quantity": 8,
+          "sets": 2,
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "id": "gym_lower_body_core",
+      "title": "健身房下肢与躯干",
+      "minutes": 40,
+      "purpose": "保留下肢蹲与髋铰链力量、躯干控制和上肢水平拉。",
+      "equipment": [
+        "哑铃"
+      ],
+      "space": [
+        "gym"
+      ],
+      "actions": [
+        {
+          "exerciseId": "goblet_squat",
+          "quantity": 8,
+          "sets": 3,
+          "restSeconds": 75
+        },
+        {
+          "exerciseId": "dumbbell_rdl",
+          "quantity": 8,
+          "sets": 3,
+          "restSeconds": 75
+        },
+        {
+          "exerciseId": "dumbbell_row",
+          "quantity": 8,
+          "sets": 3,
+          "restSeconds": 60
+        },
+        {
+          "exerciseId": "side_plank",
+          "quantity": 20,
+          "sets": 2,
+          "restSeconds": 40
+        },
+        {
+          "exerciseId": "suitcase_carry",
+          "quantity": 16,
+          "sets": 2,
+          "restSeconds": 45,
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "court_footwork_braking",
+      "title": "球场脚步与制动",
+      "minutes": 25,
+      "purpose": "练习篮球场上的直线启动、减速停稳与侧向制动。",
+      "equipment": [],
+      "space": [
+        "court"
+      ],
+      "actions": [
+        {
+          "exerciseId": "march_in_place",
+          "quantity": 60,
+          "sets": 1,
+          "restSeconds": 20,
+          "optional": true
+        },
+        {
+          "exerciseId": "short_acceleration",
+          "quantity": 10,
+          "sets": 3,
+          "restSeconds": 60
+        },
+        {
+          "exerciseId": "linear_braking",
+          "quantity": 1,
+          "sets": 3,
+          "restSeconds": 50
+        },
+        {
+          "exerciseId": "lateral_shuffle_stop",
+          "quantity": 1,
+          "sets": 3,
+          "restSeconds": 50
+        },
+        {
+          "exerciseId": "snap_down",
+          "quantity": 3,
+          "sets": 2,
+          "restSeconds": 30,
+          "optional": true
+        }
+      ]
+    }
+  ]
+}
