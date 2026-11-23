@@ -21,8 +21,9 @@ import analytics
 from video_engine.exercises import EXERCISES, public_exercises
 
 ROOT=Path(__file__).resolve().parent
-GYM=Path(os.environ.get('PIVOT_GYM_ROOT','/Users/Admin/Documents/运动健身资料/Good-GYM-master'))
-MEDIA_TOOLS=Path(os.environ.get('PIVOT_MEDIA_TOOLS','/Users/Admin/Documents/运动健身资料/openpose-master/.native/bin'))
+REFERENCE_DIR=Path.home()/'Documents'/'运动健身资料'
+GYM=Path(os.environ.get('PIVOT_GYM_ROOT',REFERENCE_DIR/'Good-GYM-master'))
+MEDIA_TOOLS=Path(os.environ.get('PIVOT_MEDIA_TOOLS',REFERENCE_DIR/'openpose-master' / '.native' / 'bin'))
 PYTHON_VISION=Path(os.environ.get('PIVOT_VISION_PYTHON',str(GYM/'.venv/bin/python')))
 MAX_VIDEO=60*1024*1024
 # Only file containers, never playlist/concat/network demuxers. MOV external drefs remain disabled.

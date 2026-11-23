@@ -4,6 +4,13 @@
 
 ## 从 GitHub 克隆后启动
 
+```sh
+git clone https://github.com/tiandee0801-stack/pivot-agent.git
+cd pivot-agent
+```
+
+也可以在 GitHub 的 **Code → Download ZIP** 下载后解压。 [下载 ZIP](https://github.com/tiandee0801-stack/pivot-agent/archive/refs/heads/main.zip)
+
 在仓库根目录运行以下命令，打开 [训练页](http://127.0.0.1:8898/#training)。如果端口已被占用，可替换为其他空闲端口。数据写入本机的 `artifacts/`。
 
 ```sh
@@ -13,6 +20,17 @@ PIVOT_GUEST_MODE=1 PIVOT_CATALOG_PREVIEW=1 PIVOT_PUBLIC_ORIGIN= \
 ```
 
 这条命令只需要 Python，可以体验模板、篮球记录、规则调整、确认开练及动作示范。模型意图识别和姿态计数依赖额外安装的本地运行环境，详见 [后端运行手册](BACKEND_RUNBOOK.md) 和 [第三方依赖](THIRD_PARTY_NOTICES.md)。
+
+## 参与开发
+
+在 GitHub Fork 本仓库，克隆自己的副本，在新分支上修改。验证后向本仓库的 `main` 提交 Pull Request，并在描述中写明变化和可复现的验证步骤。 [当前验收范围](docs/RELEASE_V1.1.5.md)
+
+```sh
+python3 -m unittest discover -s tests -p 'test_*.py'
+python3 tests/smoke_workout_flow.py
+```
+
+项目原创代码、文档和自制素材采用 [MIT 许可](LICENSE)。第三方代码、图片和视频继续适用各自的条款。 [第三方说明](THIRD_PARTY_NOTICES.md) · [视频素材来源](web/assets/demos/SOURCES.md)
 
 ## 开发机启动
 

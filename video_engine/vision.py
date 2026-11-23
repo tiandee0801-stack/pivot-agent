@@ -23,7 +23,7 @@ except ImportError:
     sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
     from video_engine.exercises import EXERCISES, measure, make_counter, counter_angle
 
-REPOS = Path(os.environ.get('PIVOT_VISION_REPOS', '/Users/Admin/Documents/运动健身资料'))
+REPOS = Path(os.environ.get('PIVOT_VISION_REPOS', Path.home() / 'Documents' / '运动健身资料'))
 MODELS = REPOS / 'Good-GYM-master/models'
 FFPROBE = Path(os.environ.get('PIVOT_FFPROBE', str(REPOS / 'openpose-master/.native/bin/ffprobe')))
 DETECTOR = MODELS / 'yolox_nano_8xb8-300e_humanart-40f6f0d0.onnx'

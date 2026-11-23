@@ -33,7 +33,7 @@ CrossFitOS 在每个来源页以 [CC BY-SA 4.0](https://creativecommons.org/lice
 
 ## Pivot 换场自制球场动作动画
 
-动画根据现有动作库说明制作。人物、球场和动作轨迹为自制，使用同名 MP4 和封面图。内容为动作示意，待体能教练审核。
+动画根据现有动作库说明制作。人物、球场和动作轨迹为自制，使用同名 MP4 和封面图，采用项目 [MIT 许可](../../../LICENSE)。内容为动作示意，待体能教练审核。
 
 可用 `ops/court_demo_moving.py` 和 `ops/court_demo_stationary.py` 重新生成，两者共用 `ops/court_demo_renderer.py`，需要 Pillow、FFmpeg 和可显示中文的字体。
 
